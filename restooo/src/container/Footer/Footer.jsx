@@ -3,8 +3,8 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => (
-  <div>
-    Footer
+  <div className='fondo'>
+    footer
   </div>
 );
 
