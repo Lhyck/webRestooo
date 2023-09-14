@@ -2,7 +2,7 @@ import React from 'react';
 
 import { images } from '../../constants'
 
-const SubHeading = ({title}) => {
+const SubHeading = ({title}) => (
   
     <div style={{marginBotoom: '1rem'}}>
        <p className="p__cormorant">{title} </p>
@@ -10,6 +10,5 @@ const SubHeading = ({title}) => {
       
     </div>
    
-}
-
+);
 export default SubHeading;
