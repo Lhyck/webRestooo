@@ -20,6 +20,7 @@ import quote from '../assets/quote.png';
 import G from '../assets/G.png';
 import knife from '../assets/knife.png'
 import gericht from '../assets/gericht.jpg';
+import user from '../assets/user.jpg';
 
 export default {
   bg,
@@ -44,4 +45,5 @@ export default {
   sign,
   quote,
   gericht,
+  user,
 };

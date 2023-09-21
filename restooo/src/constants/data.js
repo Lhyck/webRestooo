@@ -56,27 +56,30 @@ const cocktails = [
   },
 ];
 
-const awards = [
+const foots = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Napolitanas',
+    price: '58',
+    detail: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Pizzas',
+    price: '86',
+    detail: 'Lorem ipsum dolor sit amet, consectetur.',
+
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Empanadas',
+    price: '22',
+    detail: 'Lorem ipsum dolor sit amet, consectetur.',
+
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Sandwich',
+    price: '46',
+    detail: 'Lorem ipsum dolor sit amet, consectetur.',
+
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, cocktails, foots };

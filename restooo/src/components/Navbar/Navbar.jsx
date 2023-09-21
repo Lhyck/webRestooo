@@ -15,18 +15,16 @@ const Navbar = () => {
       </div>
     
       <ul className="app__navbar-links">
-                <li className="p__opensans"><a href="#home">Header</a></li>
+              
                 <li className="p__opensans"><a href="#Usuarios">Usuarios</a></li>
-                <li className="p__opensans"><a href="#gallery">Galeria</a></li>
+              
                 <li className="p__opensans"><a href="#menu">Menu</a></li>
                 <li className="p__opensans"><a href="#intro">Bebidas</a></li>
                 <li className="p__opensans"><a href="#findus">Contacto</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Register</a>
-      
-      <a href="/" className="p__opensans">Book Table</a>
-      </div> 
+        <a href="#login" className="p__opensans">Loguearse / Registro</a>
+            </div> 
       
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)}/>
@@ -36,9 +34,9 @@ const Navbar = () => {
          <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onclick={() => setToggleMenu(false)}/>
       
               <ul className="app__navbar-smallscreen_links">
-                <li className="p__opensans"><a href="#header">Header</a></li>
+                <li className="p__opensans"><a href="#header">Home</a></li>
                 <li className="p__opensans"><a href="#usuarios">Usuarios</a></li>
-                <li className="p__opensans"><a href="#gallery">Galeria</a></li>
+             
                 <li className="p__opensans"><a href="#menu">Menu</a></li>
                 <li className="p__opensans"><a href="#drinks">Bebidas</a></li>
                 <li className="p__opensans"><a href="#contac">Contacto</a></li>
