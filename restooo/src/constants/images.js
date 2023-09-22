@@ -21,12 +21,16 @@ import G from '../assets/G.png';
 import knife from '../assets/knife.png'
 import gericht from '../assets/gericht.jpg';
 import user from '../assets/user.jpg';
+import welc from '../assets/welc.jpg';
+import welco from '../assets/welco.jpg'
 
 export default {
   bg,
   chef,
   G,
   gallery01,
+  welc,
+  welco,
   gallery02,
   gallery03,
   gallery04,

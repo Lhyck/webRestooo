@@ -17,7 +17,6 @@ const Navbar = () => {
       <ul className="app__navbar-links">
               
                 <li className="p__opensans"><a href="#Usuarios">Usuarios</a></li>
-              
                 <li className="p__opensans"><a href="#menu">Menu</a></li>
                 <li className="p__opensans"><a href="#intro">Bebidas</a></li>
                 <li className="p__opensans"><a href="#findus">Contacto</a></li>

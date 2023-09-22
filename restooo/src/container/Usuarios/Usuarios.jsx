@@ -13,16 +13,16 @@ const Usuarios = () => {
    }
    return (
    <div className='app__Usuarios'>
+    
     <div>
-    <div>
-      <img  src={ images.user} alt="Usuario img"></img>
+      <img  src={ images.user} alt="Usuario img" className='app__images-img'></img>
       <br>
       </br>
       <br>
       </br>
      <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown} size='lg' direction='right'>  
         
-        <DropdownToggle caret>
+        <DropdownToggle caret className='app__dropdown_dropdown-toggle.btn.btn_-secondary'>
           Gestion de Usuarios
         </DropdownToggle>
         <DropdownMenu>
@@ -32,10 +32,40 @@ const Usuarios = () => {
         </DropdownMenu>
         </Dropdown>  
     </div>
+
+    <div className='app__form'>
+      <form>
+          <label className='app__label'>Nombre :  <input type="text" name="name" className='app__label-input'/>
+          </label>
+          <br></br>
+          <br></br>
+          <br></br>
+          <label className='app__label'>Apellido : <input type="text" name="name" className='app__label-input'/>
+
+          </label>
+          <br></br>
+          <br></br>
+          <br></br>
+          <label className='app__label'>Rol : <input type="text" name="name" className='app__label-input'/>
+
+          </label>
+          <br></br>
+          <br></br>
+          <br></br>
+          <label className='app__label'>DNI : <input type="text" name="name" className='app__label-input'/>
+
+          </label>
+            
+             
+            <div style={{marginTop:"15px"}}>
+              <button type="submit" value="Submit" className="custom__button">Guardar</button>
+            </div>
+      </form> 
+    </div>
     </div>
   
-
-    </div>
+  
+  
   )
 } 
 export default Usuarios;
