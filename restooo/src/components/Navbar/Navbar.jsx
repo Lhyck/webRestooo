@@ -16,10 +16,10 @@ const Navbar = () => {
     
       <ul className="app__navbar-links">
               
+                <li className="p__opensans"><a href="#Home">Inicio</a></li>
                 <li className="p__opensans"><a href="#Usuarios">Usuarios</a></li>
-                <li className="p__opensans"><a href="#menu">Menu</a></li>
-                <li className="p__opensans"><a href="#intro">Bebidas</a></li>
-                <li className="p__opensans"><a href="#findus">Contacto</a></li>
+                <li className="p__opensans"><a href="#Productos">Productos</a></li>
+                <li className="p__opensans"><a href="#Footer">Contacto</a></li>
       </ul>
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">Loguearse / Registro</a>
@@ -30,15 +30,15 @@ const Navbar = () => {
         
         {toggleMenu && (
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-         <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onclick={() => setToggleMenu(false)}/>
+         <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)}/>
       
               <ul className="app__navbar-smallscreen_links">
-                <li className="p__opensans"><a href="#header">Home</a></li>
-                <li className="p__opensans"><a href="#usuarios">Usuarios</a></li>
+                <li className="p__opensans"><a href="#Home">Inicio</a></li>
+                <li className="p__opensans"><a href="#Usuarios">Usuarios</a></li>
              
-                <li className="p__opensans"><a href="#menu">Menu</a></li>
+                <li className="p__opensans"><a href="#Productos">Productos</a></li>
                 <li className="p__opensans"><a href="#drinks">Bebidas</a></li>
-                <li className="p__opensans"><a href="#contac">Contacto</a></li>
+                <li className="p__opensans"><a href="#Footer">Contacto</a></li>
               </ul>
          </div>
          

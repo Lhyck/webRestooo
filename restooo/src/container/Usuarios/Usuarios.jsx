@@ -12,9 +12,9 @@ const Usuarios = () => {
     setDropdown(!dropdown);
    }
    return (
-   <div className='app__Usuarios'>
+   <div className='app__Usuarios' id='Usuarios'>
     
-    <div>
+    <div className='app__div_img'>
       <img  src={ images.user} alt="Usuario img" className='app__images-img'></img>
       <br>
       </br>
@@ -33,7 +33,7 @@ const Usuarios = () => {
         </Dropdown>  
     </div>
 
-    <div className='app__form'>
+    <div className='app__form_usuarios'>
       <form>
           <label className='app__label'>Nombre :  <input type="text" name="name" className='app__label-input'/>
           </label>

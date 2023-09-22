@@ -11,9 +11,9 @@ const Productos = () =>{
       setDropdown(!dropdown);
      }
      return (
-     <div className='app__Productos'>
+     <div className='app__Productos' id='Productos'>
       
-      <div>
+      <div className='app__div_img_pro'>
         <img  src={ images.welco} alt="Welco img" className='app__images-img'></img>
         <br>
         </br>
@@ -32,7 +32,7 @@ const Productos = () =>{
           </Dropdown>  
       </div>
   
-      <div className='app__form'>
+      <div className='app__form_productos'>
         <form>
             <label className='app__label'>IdProducto :  <input type="text" name="name" className='app__label-input'/>
             </label>

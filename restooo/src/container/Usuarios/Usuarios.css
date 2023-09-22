@@ -1,12 +1,13 @@
 .app__Usuarios {
     background-color: var(--color-black);
     padding: 10rem 3rem;
+    display: flex;
     
     
 }
 
 .app__images-img {
-    width: 35%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -14,8 +15,8 @@
   background: var(--color-golden);
   color: black;
 }
-.app__form {
-    padding-left: 700px;
+.app__form_usuarios {
+    padding-left: 200px;
     padding-right: 20px;
     
 } 
@@ -26,6 +27,7 @@
     background-color: var(--color-white);
 
 }
+
 
 .app__label {
     font-family: var(--font-base);

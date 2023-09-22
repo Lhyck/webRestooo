@@ -1,12 +1,12 @@
 .app__Productos {
     background-color: var(--color-black);
     padding: 10rem 3rem;
-    
+    display: flex;
     
 }
 
-.app__images-img {
-    width: 35%;
+.app__div_img_pro {
+    width: 30%;
     border-radius: 10px;
 }
 
@@ -14,8 +14,8 @@
   background: var(--color-golden);
   color: black;
 }
-.app__form {
-    padding-left: 700px;
+.app__form_productos {
+    padding-left: 200px;
     padding-right: 20px;
     
 } 
