@@ -1,4 +1,4 @@
-import React,  {useState} from 'react'
+import React,  {useState} from 'react';
 
 import './Productos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +15,7 @@ const Productos = () =>{
       
       <div className='app__div_img_pro'>
         <img  src={ images.welco} alt="Welco img" className='app__images-img'></img>
+        <img src={images.spoon} alt="spoon" className="spoon__img" style={{marginTop:15}}></img>
         <br>
         </br>
         <br>
@@ -54,7 +55,9 @@ const Productos = () =>{
             <label className='app__label'>Detalle : <input type="text" name="name" className='app__label-input'/>
   
             </label>
-              
+            <br></br>
+            <br></br>
+            <br></br> 
                
               <div style={{marginTop:"15px"}}>
                 <button type="submit" value="Submit" className="custom__button">Guardar</button>

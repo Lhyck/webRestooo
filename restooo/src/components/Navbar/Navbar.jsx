@@ -22,7 +22,7 @@ const Navbar = () => {
                 <li className="p__opensans"><a href="#Footer">Contacto</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Loguearse / Registro</a>
+        <a href="#Login" className="p__opensans">Loguearse / Registro</a>
             </div> 
       
       <div className="app__navbar-smallscreen">

@@ -15,7 +15,8 @@ const Usuarios = () => {
    <div className='app__Usuarios' id='Usuarios'>
     
     <div className='app__div_img'>
-      <img  src={ images.user} alt="Usuario img" className='app__images-img'></img>
+      <img  src={ images.Loginn} alt="Usuario img" className='app__images-img'></img>
+      <img src={images.spoon} alt="spoon" className="spoon__img" style={{marginTop:15}}></img>
       <br>
       </br>
       <br>
@@ -55,7 +56,9 @@ const Usuarios = () => {
           <label className='app__label'>DNI : <input type="text" name="name" className='app__label-input'/>
 
           </label>
-            
+          <br></br>
+            <br></br>
+            <br></br>
              
             <div style={{marginTop:"15px"}}>
               <button type="submit" value="Submit" className="custom__button">Guardar</button>

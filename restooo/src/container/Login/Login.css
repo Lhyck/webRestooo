@@ -1,0 +1,30 @@
+.app__Login {
+    background-color: var(--color-black);
+    padding: 10rem 3rem;
+    display: flex;
+    
+}
+
+.app__div_img_login {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.app__form_login {
+    padding-left: 200px;
+    padding-right: 20px;
+    
+} 
+
+.app__label-input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+
+}
+
+.app__label {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 25px;
+}

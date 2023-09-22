@@ -22,12 +22,20 @@ import knife from '../assets/knife.png'
 import gericht from '../assets/gericht.jpg';
 import user from '../assets/user.jpg';
 import welc from '../assets/welc.jpg';
-import welco from '../assets/welco.jpg'
+import welco from '../assets/welco.jpg';
+import login from '../assets/login.jpg';
+import Loginn from '../assets/Loginn.jpg';
+import pizzas from '../assets/pizzas.jpg';
+import empanadas from '../assets/empanadas.jpg'
 
 export default {
   bg,
   chef,
+  pizzas,
+  empanadas,
   G,
+  Loginn,
+  login,
   gallery01,
   welc,
   welco,
