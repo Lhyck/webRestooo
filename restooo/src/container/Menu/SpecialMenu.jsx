@@ -39,7 +39,7 @@ const SpecialMenu = () => (
             <p className="app__specialMenu-menu_heading">Minutas</p>
             <div className="app__specialMenu_menu_items">
             {data.foots.map((foots, index) => (
-                  <MenuItem key={foots.title + index} title={foots.title} price={foots.price}  />
+                  <MenuItem key={foots.title + index} title={foots.title} price={foots.price} tags={foots.tags} />
                 ))}
             </div> 
         </div>

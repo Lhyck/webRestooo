@@ -33,6 +33,9 @@
     cursor: pointer;
 }
 
+.app__navbar-links li a {
+color: var(--color-golden);
+}
 
 .app__navbar-links li:hover {
     color: var(--color-grey);
@@ -48,8 +51,10 @@
   margin: 0 1rem;
   text-decoration: none;
   transition: 0.5s ease;
-  
+
 }
+
+
 
 .app__navbar-login a:hover {
     border-bottom: 1px solid var(--color-golden);
@@ -58,7 +63,7 @@
 .app__navbar-login div {
     width: 1px;
     height: 30px;
-    background-color:var(--color-grey )
+    background-color:var(--color-grey)
 }
 
 .app__navbar-smallscreen {
@@ -103,6 +108,11 @@
 
 .app__navbar-smallscreen_links li:hover {
     color: var(--color-white);
+}
+
+
+.app__navbar-smallscreen_links li a {
+    color: var(--color-golden);
 }
 
 @media screen and (max-width: 2000px) {
